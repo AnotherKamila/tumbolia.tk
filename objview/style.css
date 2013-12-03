@@ -22,3 +22,15 @@ body {
   right: 0;
   overflow: hidden;
 }
+#urlbox {
+  border: 1px solid #1af;
+  position: fixed;
+  bottom: 2em;
+  left: 2em;
+  width: 30em;
+  opacity: 0.5;
+}
+#urlbox:hover,
+#urlbox:focus {
+  opacity: 1;
+}
